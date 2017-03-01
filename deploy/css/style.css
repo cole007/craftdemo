@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One|Rubik:300,500");
+html {
+  height: 100%; }
+
+html, body {
+  min-height: 100%; }
+
+body {
+  background: #ff3744 url(../img/tile.svg) top repeat-x;
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300; }
+
+a:link, a:visited {
+  color: #fff6d5; }
+
+h1 a {
+  display: block;
+  height: 64px;
+  width: 374px;
+  background: url("../img/logo.png") no-repeat;
+  background-image: url("../img/logo.svg");
+  text-indent: -999em;
+  background-size: contain; }
+
+[role='heading'] {
+  background: #ff3744;
+  padding: 1em 0; }
+
+nav {
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  font-size: 1.5em; }
+  nav a:link, nav a:visited {
+    color: #000; }
+    nav a:link:hover, nav a:link:focus, nav a:link:active, nav a:visited:hover, nav a:visited:focus, nav a:visited:active {
+      color: #fff6d5; }
+  nav .uk-active a:link, nav .uk-active a:visited {
+    color: #fff6d5;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fff6d5; }
+
+[role='main'] {
+  background: #fff6d5;
+  font-size: 1.4em;
+  line-height: 1.3; }
+  [role='main'] h1, [role='main'] h2, [role='main'] h3, [role='main'] h4, [role='main'] h5, [role='main'] h6 {
+    color: #ff3744;
+    font-family: 'Fugaz One', cursive; }
+  [role='main'] a:link, [role='main'] a:visited {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 2px; }
+    [role='main'] a:link:hover, [role='main'] a:link:focus, [role='main'] a:link:active, [role='main'] a:visited:hover, [role='main'] a:visited:focus, [role='main'] a:visited:active {
+      background-color: #ff3744;
+      color: #000;
+      text-decoration: none; }
+
+.covers .uk-cover {
+  max-height: 180px;
+  max-width: 100%; }
+
+[role='contentinfo'] {
+  background: #000;
+  color: #fff; }
+
+.uk-modal a.uk-modal-close:link, .uk-modal a.uk-modal-close:visited {
+  color: #ff3744; }
+
+.uk-slidenav-position .uk-slidenav-contrast {
+  color: #fff; }
+
+.uk-slidenav-position .uk-slidenav-previous {
+  left: 0; }
+
+.uk-slidenav-position .uk-slidenav-next {
+  right: 0; }

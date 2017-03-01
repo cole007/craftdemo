@@ -1,0 +1,27 @@
+{
+  "name": "animalfarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
+    "node-bourbon": "^4.2.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cole007/euro2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cole007/euro2016/issues"
+  },
+  "homepage": "https://github.com/cole007/euro2016#readme"
+}
