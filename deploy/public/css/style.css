@@ -64,6 +64,9 @@ nav {
 [role='contentinfo'] {
   background: #000;
   color: #fff; }
+  [role='contentinfo'] .uk-icon-justify {
+    display: inline-block;
+    padding-right: 4px; }
 
 .uk-modal a.uk-modal-close:link, .uk-modal a.uk-modal-close:visited {
   color: #ff3744; }

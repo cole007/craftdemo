@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     // neat = require('node-neat').includePaths;
 
 var paths = {
-	scss: './deploy/css/scss/*.scss'
+	scss: './deploy/public/css/scss/*.scss'
     };
 
 
@@ -13,7 +13,7 @@ gulp.task('styles', function () {
             // includePaths: ['styles'].concat(neat)
             includePaths: ['styles']
         }))
-        .pipe(gulp.dest('./deploy/css'));
+        .pipe(gulp.dest('./deploy/public/css'));
     });
 
 gulp.task('default',function(){
@@ -22,6 +22,6 @@ gulp.task('default',function(){
 
 // watch our scss files for changes
 gulp.task('watch', function() {
-    gulp.watch('deploy/css/**/*.scss', ['styles']);
+    gulp.watch('deploy/public/css/**/*.scss', ['styles']);
 });
 

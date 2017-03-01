@@ -82,6 +82,10 @@ nav {
 [role='contentinfo'] {
 	background: $black;
 	color: $white;
+	.icon-justify {
+		display: inline-block;
+		padding: 0 2px;
+	}
 }
 .uk-modal {
 	a.uk-modal-close:link, a.uk-modal-close:visited {
