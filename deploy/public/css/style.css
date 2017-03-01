@@ -56,17 +56,29 @@ nav {
       background-color: #ff3744;
       color: #000;
       text-decoration: none; }
-
-.covers .uk-cover {
-  max-height: 180px;
-  max-width: 100%; }
+  [role='main'] .covers .uk-cover {
+    max-height: 180px;
+    max-width: 100%;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    border: 20px solid #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out; }
+    [role='main'] .covers .uk-cover:hover {
+      border-color: rgba(255, 255, 255, 0.5);
+      background-color: #fff;
+      border-width: 15px; }
 
 [role='contentinfo'] {
   background: #000;
   color: #fff; }
-  [role='contentinfo'] .uk-icon-justify {
+  [role='contentinfo'] .icon-justify {
     display: inline-block;
-    padding-right: 4px; }
+    padding: 0 2px; }
+  [role='contentinfo'] a:link, [role='contentinfo'] a:visited {
+    color: #fff;
+    text-decoration: underline; }
 
 .uk-modal a.uk-modal-close:link, .uk-modal a.uk-modal-close:visited {
   color: #ff3744; }

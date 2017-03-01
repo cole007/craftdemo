@@ -71,20 +71,36 @@ nav {
 			// border-color: $black;
 		}
 	}
+	.covers {
+		.uk-cover {
+			max-height: 180px;
+			max-width: 100%;
+			background: $white;
+			background: rgba($white,0.5);
 
-}
-.covers {
-	.uk-cover {
-		max-height: 180px;
-		max-width: 100%;
+			border: 20px solid $white;
+			border-color: rgba($white,0.5);
+			box-sizing: border-box;
+			transition: all 0.3s ease-in-out; 
+			&:hover {
+				border-color: rgba(255,255,255,0.5);
+				background-color: $white;
+				border-width: 15px;
+			}
+		}
 	}
 }
+
 [role='contentinfo'] {
 	background: $black;
 	color: $white;
 	.icon-justify {
 		display: inline-block;
 		padding: 0 2px;
+	}
+	a:link, a:visited {
+		color: $white;
+		text-decoration: underline;
 	}
 }
 .uk-modal {
