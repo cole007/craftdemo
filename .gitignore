@@ -30,6 +30,7 @@ deploy/public/uploads
 ######################
 # http://buildwithcraft.com/help/craft-storage-gitignore#craft-storage-runtime
 deploy/craft/*
+!deploy/craft/templates/*
 
 # Caches
 sized/
