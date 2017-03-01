@@ -43,7 +43,9 @@ nav {
 [role='main'] {
   background: #fff6d5;
   font-size: 1.4em;
-  line-height: 1.3; }
+  line-height: 1.3;
+  margin-top: 10px !important;
+  padding-top: 20px !important; }
   [role='main'] h1, [role='main'] h2, [role='main'] h3, [role='main'] h4, [role='main'] h5, [role='main'] h6 {
     color: #ff3744;
     font-family: 'Fugaz One', cursive; }
@@ -72,13 +74,16 @@ nav {
 
 [role='contentinfo'] {
   background: #000;
-  color: #fff; }
+  color: #fff;
+  margin-top: 10px !important; }
   [role='contentinfo'] .icon-justify {
     display: inline-block;
     padding: 0 2px; }
   [role='contentinfo'] a:link, [role='contentinfo'] a:visited {
     color: #fff;
     text-decoration: underline; }
+    [role='contentinfo'] a:link:hover, [role='contentinfo'] a:link:focus, [role='contentinfo'] a:link:active, [role='contentinfo'] a:visited:hover, [role='contentinfo'] a:visited:focus, [role='contentinfo'] a:visited:active {
+      color: #ff3744; }
 
 .uk-modal a.uk-modal-close:link, .uk-modal a.uk-modal-close:visited {
   color: #ff3744; }
