@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% if entry %}{{ entry.title }} | {% endif %}Animal Farm</title>
+        <link rel="stylesheet" href="./css/uikit.min.css" />
+        <link rel="stylesheet" href="./css/slidenav.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+
+    <div class="uk-container uk-container-center">
+    	<header role="heading" class="uk-grid uk-margin-remove">
+    		<h1 class="uk-margin-top uk-margin-bottom"><a href="./">Animal Farm</a></h1>
+    		<nav role="navigation">
+    		<ul class="uk-subnav uk-margin-top">
+    			<li class="uk-active"><a href="./">The Book</a></li>
+    			<li><a href="./author.html">The Author</a></li>
+    			<li><a href="./characters.html">The Characters</a></li>
+    			<li><a href="./covers.html">Covers</a></li>
+    		</ul>
+    		</nav>
+    	</header>
+    	<article role="main" class="uk-grid uk-margin-remove">
+    		<div class="uk-width-2-3 uk-container-center uk-margin-top uk-margin-bottom">
+    			{% block content %}
+    			{% endblock %}
+    		</div>
+    	</article>
+    	<footer role="contentinfo" class="uk-grid uk-margin-remove">
+    	<div class="uk-width-2-3 uk-container-center uk-margin-top uk-margin-bottom uk-clearfix">
+    		<p class="uk-float-left uk-margin-top-remove">
+    			&copy; George Orwell 1945.
+    		</p>
+    		<p class="uk-float-right uk-margin-top-remove">
+    			Text <a href="https://en.wikipedia.org/wiki/Animal_Farm"><i class="uk-icon-creative-commons uk-icon-justify"></i>Wikipedia</a>
+    		</p>
+    	</footer>
+    </div>
+
+    </body>
+
+    <script src="./js/libs/jquery.min.js"></script>
+    <script src="./js/libs/uikit.min.js"></script>
+    <script src="./js/libs/lightbox.min.js"></script>
+</html>
